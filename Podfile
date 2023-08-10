@@ -8,13 +8,17 @@ target 'ProjectTemplate' do
   # Pods for ProjectTemplate
   
   pod 'ASSpinnerView'
+  pod 'Atributika'
   pod 'BottomPopup'
+  pod 'Kingfisher'
   pod 'RxCocoa'
   pod 'RxGesture'
   pod 'RxRealm'
   pod 'RxReachability'
   pod 'SnapKit'
   pod 'SkeletonView'
+  pod 'SwiftDate'
+  pod 'SwiftSoup'
   pod 'YPImagePicker'
 
   target 'ProjectTemplateTests' do

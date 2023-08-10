@@ -1,13 +1,15 @@
 PODS:
   - ASSpinnerView (0.1.2)
+  - Atributika (5.0.2)
   - BottomPopup (0.7.0)
+  - Kingfisher (7.9.0)
   - PryntTrimmerView (4.0.2)
   - ReachabilitySwift (5.0.0)
-  - Realm (10.41.0):
-    - Realm/Headers (= 10.41.0)
-  - Realm/Headers (10.41.0)
-  - RealmSwift (10.41.0):
-    - Realm (= 10.41.0)
+  - Realm (10.42.0):
+    - Realm/Headers (= 10.42.0)
+  - Realm/Headers (10.42.0)
+  - RealmSwift (10.42.0):
+    - Realm (= 10.42.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -29,25 +31,33 @@ PODS:
   - SkeletonView (1.30.4)
   - SnapKit (5.6.0)
   - SteviaLayout (4.7.3)
+  - SwiftDate (7.0.0)
+  - SwiftSoup (2.6.1)
   - YPImagePicker (5.2.1):
     - PryntTrimmerView (= 4.0.2)
     - SteviaLayout (= 4.7.3)
 
 DEPENDENCIES:
   - ASSpinnerView
+  - Atributika
   - BottomPopup
+  - Kingfisher
   - RxCocoa
   - RxGesture
   - RxReachability
   - RxRealm
   - SkeletonView
   - SnapKit
+  - SwiftDate
+  - SwiftSoup
   - YPImagePicker
 
 SPEC REPOS:
   trunk:
     - ASSpinnerView
+    - Atributika
     - BottomPopup
+    - Kingfisher
     - PryntTrimmerView
     - ReachabilitySwift
     - Realm
@@ -61,15 +71,19 @@ SPEC REPOS:
     - SkeletonView
     - SnapKit
     - SteviaLayout
+    - SwiftDate
+    - SwiftSoup
     - YPImagePicker
 
 SPEC CHECKSUMS:
   ASSpinnerView: 526e037b85b9db87d55db55297986b7da3059aa8
+  Atributika: 0eabae2cc37999e79c5b94f60213642946991b1c
   BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
   PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
-  Realm: 669efee7dc1ce0aa9f6739a60f8c0df0a3835067
-  RealmSwift: 6b7b0e91b79dc66d5cfceeb3b319cacfc9b1a70e
+  Realm: 490aad28f1360e58fc22256d5d686d3a36525346
+  RealmSwift: f6a9b56d747bbdd7931de1835896c5f024b6898a
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
   RxReachability: bfd13548bf1dac7a877082d13918a9f39bdb5c18
@@ -79,8 +93,10 @@ SPEC CHECKSUMS:
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwiftSoup: 5dd2c1b06afc964f30d99894af6ede22ede627aa
   YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
 
-PODFILE CHECKSUM: 11fe869f178a3a9cd48c2d67c922f3a05d7bb413
+PODFILE CHECKSUM: 64d9bb924a8a071ee4c24b90a9e9d569f1f704a0
 
 COCOAPODS: 1.12.1
