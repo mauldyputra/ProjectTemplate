@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-ProjectTemplate-ProjectTemplateUITests/Pods-ProjectTemplate-ProjectTemplateUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASSpinnerView/ASSpinnerView.framework
+${BUILT_PRODUCTS_DIR}/BottomPopup/BottomPopup.framework
+${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework
+${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework

@@ -1,0 +1,40 @@
+PODS:
+  - ASSpinnerView (0.1.2)
+  - BottomPopup (0.7.0)
+  - PryntTrimmerView (4.0.2)
+  - SkeletonView (1.30.4)
+  - SnapKit (5.6.0)
+  - SteviaLayout (4.7.3)
+  - YPImagePicker (5.2.1):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
+
+DEPENDENCIES:
+  - ASSpinnerView
+  - BottomPopup
+  - SkeletonView
+  - SnapKit
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - ASSpinnerView
+    - BottomPopup
+    - PryntTrimmerView
+    - SkeletonView
+    - SnapKit
+    - SteviaLayout
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  ASSpinnerView: 526e037b85b9db87d55db55297986b7da3059aa8
+  BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
+
+PODFILE CHECKSUM: c631baa22f2de434e83c99c1ea8bc57afb09e9c4
+
+COCOAPODS: 1.12.1
