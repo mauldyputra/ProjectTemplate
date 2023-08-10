@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D58D8C472C8B9821A5CA549 /* Pods_ProjectTemplate_ProjectTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F54E704A18912BB8D6B5A59 /* Pods_ProjectTemplate_ProjectTemplateUITests.framework */; };
+		54399A3C2A8493370088B081 /* BaseCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54399A3B2A8493370088B081 /* BaseCustomView.swift */; };
 		54F7B9E62A847CD5004DFB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7B9E52A847CD5004DFB5F /* AppDelegate.swift */; };
 		54F7B9EA2A847CD5004DFB5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7B9E92A847CD5004DFB5F /* ViewController.swift */; };
 		54F7B9ED2A847CD5004DFB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F7B9EB2A847CD5004DFB5F /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		3825A22736A574BEF88A0FDF /* Pods-ProjectTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectTemplateTests/Pods-ProjectTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		54399A3B2A8493370088B081 /* BaseCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCustomView.swift; sourceTree = "<group>"; };
 		54F7B9E22A847CD5004DFB5F /* ProjectTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7B9E52A847CD5004DFB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F7B9E92A847CD5004DFB5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		54399A2F2A8491110088B081 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				54399A392A84930F0088B081 /* UI Component */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		54399A302A8491220088B081 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		54399A312A84912B0088B081 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54399A322A8491330088B081 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		54399A332A84913C0088B081 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54399A392A84930F0088B081 /* UI Component */ = {
+			isa = PBXGroup;
+			children = (
+				54399A3A2A8493230088B081 /* Helpers */,
+			);
+			path = "UI Component";
+			sourceTree = "<group>";
+		};
+		54399A3A2A8493230088B081 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				54399A3B2A8493370088B081 /* BaseCustomView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		54F7B9D92A847CD5004DFB5F = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +179,11 @@
 			isa = PBXGroup;
 			children = (
 				54F7B9E52A847CD5004DFB5F /* AppDelegate.swift */,
+				54399A2F2A8491110088B081 /* Common */,
+				54399A302A8491220088B081 /* Data */,
+				54399A312A84912B0088B081 /* Resources */,
+				54399A322A8491330088B081 /* View Models */,
+				54399A332A84913C0088B081 /* Views */,
 				54F7B9E92A847CD5004DFB5F /* ViewController.swift */,
 				54F7B9EB2A847CD5004DFB5F /* Main.storyboard */,
 				54F7B9EE2A847CD6004DFB5F /* Assets.xcassets */,
@@ -405,6 +464,7 @@
 			files = (
 				54F7B9EA2A847CD5004DFB5F /* ViewController.swift in Sources */,
 				54F7B9E62A847CD5004DFB5F /* AppDelegate.swift in Sources */,
+				54399A3C2A8493370088B081 /* BaseCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

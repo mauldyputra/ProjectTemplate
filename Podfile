@@ -9,6 +9,10 @@ target 'ProjectTemplate' do
   
   pod 'ASSpinnerView'
   pod 'BottomPopup'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxRealm'
+  pod 'RxReachability'
   pod 'SnapKit'
   pod 'SkeletonView'
   pod 'YPImagePicker'

@@ -2,6 +2,30 @@ PODS:
   - ASSpinnerView (0.1.2)
   - BottomPopup (0.7.0)
   - PryntTrimmerView (4.0.2)
+  - ReachabilitySwift (5.0.0)
+  - Realm (10.41.0):
+    - Realm/Headers (= 10.41.0)
+  - Realm/Headers (10.41.0)
+  - RealmSwift (10.41.0):
+    - Realm (= 10.41.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxReachability (1.2.1):
+    - ReachabilitySwift (< 6.0, >= 5.0)
+    - RxCocoa (~> 6)
+    - RxSwift (~> 6)
+  - RxRealm (5.0.4):
+    - Realm (~> 10.21)
+    - RealmSwift (~> 10.21)
+    - RxCocoa (~> 6.1)
+    - RxSwift (~> 6.1)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SkeletonView (1.30.4)
   - SnapKit (5.6.0)
   - SteviaLayout (4.7.3)
@@ -12,6 +36,10 @@ PODS:
 DEPENDENCIES:
   - ASSpinnerView
   - BottomPopup
+  - RxCocoa
+  - RxGesture
+  - RxReachability
+  - RxRealm
   - SkeletonView
   - SnapKit
   - YPImagePicker
@@ -21,6 +49,15 @@ SPEC REPOS:
     - ASSpinnerView
     - BottomPopup
     - PryntTrimmerView
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxGesture
+    - RxReachability
+    - RxRealm
+    - RxRelay
+    - RxSwift
     - SkeletonView
     - SnapKit
     - SteviaLayout
@@ -30,11 +67,20 @@ SPEC CHECKSUMS:
   ASSpinnerView: 526e037b85b9db87d55db55297986b7da3059aa8
   BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
   PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: 669efee7dc1ce0aa9f6739a60f8c0df0a3835067
+  RealmSwift: 6b7b0e91b79dc66d5cfceeb3b319cacfc9b1a70e
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxReachability: bfd13548bf1dac7a877082d13918a9f39bdb5c18
+  RxRealm: 666c8785327fe2fff972a3093b35dc7055c1ca38
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
 
-PODFILE CHECKSUM: c631baa22f2de434e83c99c1ea8bc57afb09e9c4
+PODFILE CHECKSUM: 11fe869f178a3a9cd48c2d67c922f3a05d7bb413
 
 COCOAPODS: 1.12.1
