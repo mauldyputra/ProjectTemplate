@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIStackView {
-    func addSeparator(withColor color: UIColor? = .gray/*Colors.UI.lightGrey*/, at: Int?) {
+    func addSeparator(withColor color: UIColor? = Colors.UI.lightGrey, at: Int?) {
         let v = UIView()
         v.backgroundColor = color
         v.snp.makeConstraints { (make) in

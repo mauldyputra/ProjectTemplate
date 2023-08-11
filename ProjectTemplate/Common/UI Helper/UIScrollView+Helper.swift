@@ -51,7 +51,7 @@ extension UICollectionView {
 }
 
 extension UIScrollView {
-    func addRefreshControl(in vc: UIViewController, title: String = "Loading...", tintColor: UIColor = .gray/*Colors.UI.grey*/) {
+    func addRefreshControl(in vc: UIViewController, title: String = "Loading...", tintColor: UIColor = Colors.UI.grey) {
         let refreshControl: UIRefreshControl = UIRefreshControl(frame: .zero)
         refreshControl.attributedTitle = NSAttributedString(string: title)
         refreshControl.tintColor = tintColor

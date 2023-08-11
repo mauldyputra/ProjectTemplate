@@ -15,9 +15,9 @@ public final class Snackbar {
         
         var color: UIColor {
             switch self {
-            case .Error: return .red //Colors.Background.red
-            case .Success: return .green //Colors.Background.green
-            case .Info: return .blue //Colors.Background.blue
+            case .Error: return Colors.Background.red
+            case .Success: return Colors.Background.green
+            case .Info: return Colors.Background.blue
             }
         }
     }

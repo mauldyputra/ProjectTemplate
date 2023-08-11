@@ -17,7 +17,7 @@ class HeaderLabel: InsetLabel {
         customBottom = true
         
         self.font = Typeface.bold.size(20)
-        self.textColor = .darkText//Colors.UI.dark
+        self.textColor = Colors.UI.dark
         self.numberOfLines = 0
         
         super.layoutSubviews()

@@ -42,7 +42,7 @@ class ReloadView: UIView {
         stackView.spacing = 8
         
         label.font = Typeface(rawValue: "light")!.size(13)
-        label.textColor = .darkGray//Colors.UI.dark45
+        label.textColor = Colors.UI.dark45
         
         icon.image = UIImage(named: "ic-reload")
         icon.snp.makeConstraints { (make) in

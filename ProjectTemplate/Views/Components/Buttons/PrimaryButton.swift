@@ -26,14 +26,14 @@ class PrimaryButton: UIView {
         l.marginH = 24
         l.marginV = 12
         l.font = Typeface(rawValue: "medium")!.size(13)
-        l.textColor = .white//Colors.UI.offWhite
-        l.backgroundColor = .darkText//Colors.UI.darkHighlight
+        l.textColor = Colors.UI.offWhite
+        l.backgroundColor = Colors.UI.darkHighlight
         return l
     }()
     lazy private var arrowView: UIView = {
         let s = UIView()
         let a = UIView()
-        a.backgroundColor = .white//Colors.UI.offWhite
+        a.backgroundColor = Colors.UI.offWhite
         a.cornerRadius = 10
         s.snp.remakeConstraints({ $0.width.equalTo(self.frame.height) })
         s.addSubview(a)
@@ -66,10 +66,10 @@ class PrimaryButton: UIView {
         super.layoutSubviews()
         
         if !custom {
-            button.titleColor = isInverted ? .white : .white//Colors.UI.offWhite : Colors.UI.offWhite
-            backgroundColor = isInverted ? .darkGray : .orange//Colors.UI.dark45 : Colors.UI.orangeSelected
+            button.titleColor = isInverted ? Colors.UI.offWhite : Colors.UI.offWhite
+            backgroundColor = isInverted ? Colors.UI.dark45 : Colors.UI.orangeSelected
             borderWidth = isInverted ? 0 : 1
-            borderColor = isInverted ? UIColor.clear : .orange//Colors.UI.orangeSelected
+            borderColor = isInverted ? UIColor.clear : Colors.UI.orangeSelected
         }
         
         cornerRadius = 10
@@ -122,7 +122,7 @@ class PrimaryButton: UIView {
         }
     }
     
-    func customColor(title: UIColor = .white/*Colors.UI.offWhite*/, background: UIColor = .orange/*Colors.UI.orangeSelected*/ , borderWidth: CGFloat = 0, borderColor: UIColor = .clear){
+    func customColor(title: UIColor = Colors.UI.offWhite, background: UIColor = Colors.UI.orangeSelected , borderWidth: CGFloat = 0, borderColor: UIColor = .clear){
         self.custom = true
         self.button.titleColor = title
         self.backgroundColor = background

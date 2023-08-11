@@ -340,7 +340,7 @@ extension NSAttributedString {
                 }
 
                 attr.addAttribute(.font, value: UIFont(descriptor: descrip, size: fontSize ?? htmlFont.pointSize), range: range)
-                attr.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.darkText/*Colors.UI.dark*/ , range: range)
+                attr.addAttribute(NSAttributedString.Key.foregroundColor, value: Colors.UI.dark , range: range)
             }
         }
 

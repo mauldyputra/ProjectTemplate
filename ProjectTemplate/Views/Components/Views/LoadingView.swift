@@ -20,7 +20,7 @@ class LoadingView: UIView {
         
         spinner?.spinnerDuration = 0.5
         spinner?.spinnerLineWidth = 3
-        spinner?.spinnerStrokeColor = UIColor.darkGray.cgColor//Colors.UI.dark.cgColor
+        spinner?.spinnerStrokeColor = Colors.UI.dark.cgColor
     }
     
     override func layoutSubviews() {

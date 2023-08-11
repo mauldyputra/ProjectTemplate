@@ -158,7 +158,7 @@ extension UIView {
             if newValue {
                 let separator = UIView()
                 separator.tag = 781
-                separator.backgroundColor = .gray//Colors.UI.lightGrey
+                separator.backgroundColor = Colors.UI.lightGrey
                 self.insertSubview(separator, at: subviews.count)
                 separator.snp.makeConstraints { (make) in
                     make.left.bottom.right.equalToSuperview()
@@ -266,10 +266,10 @@ extension UIButton {
     }
     
     func setInverted(isInverted: Bool = false) {
-        setTitleColor(isInverted ? .white : .white/*Colors.UI.offWhite : Colors.UI.offWhite*/, for: .normal)
-        self.backgroundColor = isInverted ? .gray : .orange//Colors.UI.dark45 : Colors.UI.orangeSelected
+        setTitleColor(isInverted ? Colors.UI.offWhite : Colors.UI.offWhite, for: .normal)
+        self.backgroundColor = isInverted ? Colors.UI.dark45 : Colors.UI.orangeSelected
         self.borderWidth = isInverted ? 0 : 1
-        self.borderColor = isInverted ? UIColor.clear : .orange//Colors.UI.orangeSelected
+        self.borderColor = isInverted ? UIColor.clear : Colors.UI.orangeSelected
         self.layoutIfNeeded()
     }
 }
@@ -304,7 +304,7 @@ extension UIView {
     }
     
     func addDashedBorder(wihtColor: UIColor?) {
-        let color = wihtColor?.cgColor ?? UIColor.gray.cgColor//Colors.UI.lightGrey.cgColor
+        let color = wihtColor?.cgColor ?? Colors.UI.lightGrey.cgColor
         let shapeLayer:CAShapeLayer = CAShapeLayer()
         let frameSize = self.frame.size
         let shapeRect = CGRect(x: 0, y: 0, width: frameSize.width, height: frameSize.height)

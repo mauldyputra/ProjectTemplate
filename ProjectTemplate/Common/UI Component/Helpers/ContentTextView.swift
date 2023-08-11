@@ -17,7 +17,7 @@ class ContentTextView: UIView {
     
     var textDataDetectors: UIDataDetectorTypes = [.link, .phoneNumber] { didSet { updateTextView() }}
     var textAlignment: NSTextAlignment = .justified { didSet { updateTextView() }}
-    var textColor: UIColor = .black/*Colors.UI.dark*/ { didSet { updateTextView() }}
+    var textColor: UIColor = Colors.UI.dark { didSet { updateTextView() }}
     var textFont: UIFont? { didSet { updateTextView() }}
     
     init(marginH: CGFloat = 0, marginV: CGFloat = 0) {

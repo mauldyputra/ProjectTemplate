@@ -38,7 +38,7 @@ extension UIButton {
             guard subviews.first(where: { $0.tag == 5647 }) == nil else { return }
             // Add notice view
             let nView = UIView()
-            nView.backgroundColor = .orange//Colors.UI.orangeSelected
+            nView.backgroundColor = Colors.UI.orangeSelected
             nView.tag = 5647
             nView.cornerRadius = 4
             
