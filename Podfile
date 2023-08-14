@@ -19,6 +19,7 @@ target 'ProjectTemplate' do
   pod 'SkeletonView'
   pod 'SwiftDate'
   pod 'SwiftSoup'
+  pod 'SwiftyJSON'
   pod 'YPImagePicker'
 
   target 'ProjectTemplateTests' do

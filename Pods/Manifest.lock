@@ -33,6 +33,7 @@ PODS:
   - SteviaLayout (4.7.3)
   - SwiftDate (7.0.0)
   - SwiftSoup (2.6.1)
+  - SwiftyJSON (5.0.1)
   - YPImagePicker (5.2.1):
     - PryntTrimmerView (= 4.0.2)
     - SteviaLayout (= 4.7.3)
@@ -50,6 +51,7 @@ DEPENDENCIES:
   - SnapKit
   - SwiftDate
   - SwiftSoup
+  - SwiftyJSON
   - YPImagePicker
 
 SPEC REPOS:
@@ -73,6 +75,7 @@ SPEC REPOS:
     - SteviaLayout
     - SwiftDate
     - SwiftSoup
+    - SwiftyJSON
     - YPImagePicker
 
 SPEC CHECKSUMS:
@@ -95,8 +98,9 @@ SPEC CHECKSUMS:
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
   SwiftSoup: 5dd2c1b06afc964f30d99894af6ede22ede627aa
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
 
-PODFILE CHECKSUM: 64d9bb924a8a071ee4c24b90a9e9d569f1f704a0
+PODFILE CHECKSUM: 86ee549e4304953327ad90f8a32341f5741f186b
 
 COCOAPODS: 1.12.1
